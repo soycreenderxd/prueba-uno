@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aprender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="inicio">
+  <nav class="navegacion">
+    <h2 class="logo">PRG WEB</h2>
+    <ul class="lista">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Nosotros.html">Nosotros</a></li>
+      <li><a href="Aprender.html">Aprender</a></li>
+      <li><a href="Videos.html">Videos</a></li>
+        <li><a href="Proyectos.html">Proyectos</a></li>
+	  <li><a href="Redes.html">Redes</a></li>
+    </ul>
+  </nav>
+
+  <div class="aprendertexto">
+    <h3>
+      HTML y CSS son las bases del desarrollo web. Con HTML estructuras el contenido de una página (textos, imágenes, enlaces) y con CSS le das estilo (colores, tamaños, diseños). Aprenderlos te permitirá crear sitios web claros, atractivos y funcionales desde cero.<br />
+      En este apartado descubrirás las etiquetas más importantes y cómo usarlas junto a estilos CSS para construir tus propias páginas.
+    </h3>
+
+    <h2>¿Qué es HTML?</h2>
+    <p>
+      HTML significa HyperText Markup Language (Lenguaje de Marcado de Hipertexto).<br />
+      Es el lenguaje principal para crear páginas web. No es un lenguaje de programación, sino de estructura, que indica al navegador qué mostrar (texto, imágenes, botones, etc.).
+    </p>
+
+    <h2>Etiquetas básicas de HTML</h2>
+    <table class="tabla1" border="1" cellpadding="8" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Etiqueta HTML</th>
+          <th>Descripción</th>
+          <th>Para qué sirve</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;h1&gt; a &lt;h6&gt;</td>
+          <td>Encabezados de diferentes tamaños.</td>
+          <td>Para títulos, del más grande (&lt;h1&gt;) al más pequeño (&lt;h6&gt;).</td>
+        </tr>
+        <tr>
+          <td>&lt;p&gt;</td>
+          <td>Párrafo de texto.</td>
+          <td>Para escribir texto en bloques.</td>
+        </tr>
+        <tr>
+          <td>&lt;a&gt;</td>
+          <td>Elemento de enlace.</td>
+          <td>Para crear hipervínculos a otras páginas o recursos.</td>
+        </tr>
+        <tr>
+          <td>&lt;img&gt;</td>
+          <td>Insertar imágenes.</td>
+          <td>Para mostrar imágenes en la página web.</td>
+        </tr>
+        <tr>
+          <td>&lt;div&gt;</td>
+          <td>Contenedor genérico.</td>
+          <td>Para agrupar y organizar otros elementos.</td>
+        </tr>
+        <tr>
+          <td>&lt;span&gt;</td>
+          <td>Elemento en línea.</td>
+          <td>Para aplicar estilos o marcar texto dentro de una línea.</td>
+        </tr>
+        <tr>
+          <td>&lt;ul&gt; y &lt;li&gt;</td>
+          <td>Lista no ordenada y sus elementos.</td>
+          <td>Para listas con viñetas.</td>
+        </tr>
+        <tr>
+          <td>&lt;ol&gt; y &lt;li&gt;</td>
+          <td>Lista ordenada y sus elementos.</td>
+          <td>Para listas numeradas.</td>
+        </tr>
+        <tr>
+          <td>&lt;form&gt;</td>
+          <td>Formulario para entrada de datos.</td>
+          <td>Para recoger información del usuario.</td>
+        </tr>
+        <tr>
+          <td>&lt;input&gt;</td>
+          <td>Campo dentro del formulario.</td>
+          <td>Para diferentes tipos de entrada como texto, checkbox, etc.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>¿Qué es CSS?</h2>
+    <p>
+      CSS significa Cascading Style Sheets (Hojas de Estilo en Cascada).<br />
+      Es el lenguaje que se usa para darle estilo y diseño a las páginas web. Mientras que HTML estructura, CSS decora.
+    </p>
+
+    <table border="1" cellpadding="8" cellspacing="0" class="tabla1">
+      <thead>
+        <tr>
+          <th>Código CSS</th>
+          <th>Descripción</th>
+          <th>Para qué sirve</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>color: blue;</code></td>
+          <td>Cambia el color del texto.</td>
+          <td>Para darle color a letras o texto.</td>
+        </tr>
+        <tr>
+          <td><code>background-color: yellow;</code></td>
+          <td>Cambia el color de fondo del elemento.</td>
+          <td>Para resaltar o decorar áreas con colores de fondo.</td>
+        </tr>
+        <tr>
+          <td><code>font-size: 16px;</code></td>
+          <td>Define el tamaño del texto.</td>
+          <td>Para ajustar el tamaño de las letras.</td>
+        </tr>
+        <tr>
+          <td><code>margin: 10px;</code></td>
+          <td>Agrega espacio afuera del elemento.</td>
+          <td>Para separar un elemento de otros elementos alrededor.</td>
+        </tr>
+        <tr>
+          <td><code>padding: 5px;</code></td>
+          <td>Agrega espacio adentro del elemento, entre el borde y el contenido.</td>
+          <td>Para dar espacio interior y mejorar la apariencia del contenido.</td>
+        </tr>
+        <tr>
+          <td><code>border: 1px solid black;</code></td>
+          <td>Agrega un borde alrededor del elemento.</td>
+          <td>Para delimitar visualmente el área de un elemento.</td>
+        </tr>
+        <tr>
+          <td><code>text-align: center;</code></td>
+          <td>Alinea el texto al centro.</td>
+          <td>Para centrar texto dentro de un contenedor.</td>
+        </tr>
+        <tr>
+          <td><code>display: none;</code></td>
+          <td>Oculta un elemento de la página.</td>
+          <td>Para esconder contenido sin eliminarlo del HTML.</td>
+        </tr>
+        <tr>
+          <td><code>width: 100%;</code></td>
+          <td>Define el ancho del elemento.</td>
+          <td>Para que un elemento ocupe todo el ancho disponible del contenedor.</td>
+        </tr>
+        <tr>
+          <td><code>height: 50px;</code></td>
+          <td>Define la altura del elemento.</td>
+          <td>Para controlar la altura de cajas o imágenes.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <a href="Videos.html"><button>Aprende con Videos :D</button></a>
+  </div>
+</body>
+</html>
